@@ -1,0 +1,8 @@
+{
+	"main": "lib/stex.js",
+	"name": "Stex",
+	"version": "0.0.1",
+	"dependencies": {
+		"underscore": "1.4.x"
+	}
+}
