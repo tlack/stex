@@ -38,7 +38,7 @@ Limitations
 -----------
 
 - Not safe to use when the page output includes personal data. In the future
-  perhaps we could turn off online mode when mirroring.
+	perhaps we could turn off online mode when certain cookies are set, etc.
 
 - Mostly useful for GET routes (this is configurable; see the `methods` option)
 
