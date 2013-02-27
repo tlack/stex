@@ -1,7 +1,12 @@
 Stex: Static sites from Express apps
 ====================================
 
-This module produces a static site from an existing Express app.
+*Note:* This is very alpha. Mirror mode works but build mode is still lacking
+some big parts. Proceed with caution.
+
+Stex is a static site generator tht works with *existing* Express apps, by
+looking at the routes you have defined and building static versions of each
+page.
 
 It operates in two different modes:
 
@@ -11,6 +16,17 @@ It operates in two different modes:
 - `offline`/`build` mode: given a list of possible pages (basically, URL
 	parameter values mapped against the routes defined), build out all possible
 	static pages. As of v0.0.1 this mode is not complete.
+
+Why another static site generator?
+----------------------------------
+
+There are a million great static site generators for Node.js out there.
+Unfortunately, they all seem to share one glaring fault: they're all
+frameworks, meaning you have to build your site *around* the product rather
+than just *including* the library and using it.
+
+I wanted a simple solution that you could drop in to an existing Express app in
+a couple of hours and easily configure.
 
 Examples
 --------
